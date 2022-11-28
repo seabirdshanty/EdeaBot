@@ -1,0 +1,30 @@
+{
+  "name": "edea-bot",
+  "version": "0.0.7-a",
+  "description": "A bot for Jellyfish Yet Again",
+  "main": "main.js",
+  "scripts": {
+    "test": "node setup.js",
+    "main2": "node main.js",
+    "dice": "node dicerolls.js",
+  },
+  "author": "seabirdshanty",
+  "license": "ISC",
+  "dependencies": {
+    "discordie": "^0.9.0",
+    "droll": "^0.2.0",
+    "fs": "0.0.1-security",
+    "ini": "^1.3.4",
+    "log": "^1.4.0",
+    "rivescript": "^1.17.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seabirdshanty/edeabot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seabirdshanty/edeabot/issues"
+  },
+  "homepage": "https://github.com/seabirdshanty/edeabot#readme"
+}

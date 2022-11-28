@@ -1,0 +1,45 @@
+! version = 2.0
+
+//-----------------------------------
+// Who is Edea?
+//-----------------------------------
+
++ hello
+- Hello, I'm Edea! I'm a bot written in JS and RiveScript. How are you today?
+
+//-----------------------------------
+// Regular chats
+//-----------------------------------
+
++ do you like (breasts|breast|tiddy|tiddies|titty|tittys)
+- All breasts are good breasts!
+
++ kill me
+- I'm not killing anyone, you nerd.
+
++ do you have (breasts|breast|tiddy|tiddies|titty|tittys)
+- No. I'm a bot, idiot! I have some built in rocket launchers though.
+
++ do you know joebot
+- What's a Joebot?
+
++ are you tomo
+- No, I am not Tomo.
+
++ how are you [today]
+- I feel great! I could go for a parfait, though...
+
++ (are you|you) (okay|alright)
+- I feel great! I could go for a parfait, though...
+
++ [*] (fuck you|fuck this|stupid bot|idiot|asshole|traitor|fashion disaster) [*]
+- Mrgrgr, don't talk to me again, you jerk!{topic=apology}
+
+> topic apology
+	+ *
+	- You have to apologize for your darker then black actions!
+	- (You hear a faint Mrgrgr in the distance)
+
+	+ [*] (sorry|apologize) [*]
+	- ... Fine, I'll forgive you THIS time.{topic=random}
+< topic

@@ -1,0 +1,81 @@
+! version = 2.0
+
+//-----------------------------------
+// LOAD UP
+//-----------------------------------
+
++ com load
+- I've loaded up! Hi Muffy!
+
+//-----------------------------------
+// Commands
+//-----------------------------------
+
++ com ping
+- pong!
+
++ com helpme
+- **My Commands are as follows:** \n
+^ `e]ping` `e]help` `e]hello` `e]mrgrgr` `e]roll <diceformat>` `e]music`\n
+^ You can also talk to me by mentioning my name!
+
++ com helpmeexpanded
+- **My Commands are as follows:** \n
+^ `e]ping`: pong!\n
+^ `e]help`: display help\n
+^ `e]help feed`: display feeding help\n
+^ `e]hello`: Welcome message \n
+^ `e]mrgrgr`: mrgrgr! \n
+^ `e]roll <diceformat>`: roll dice like `1d20` or `4d10+22 && 1d6`\n
+^ `e]music`: a random selection of music
+^ You can also talk to me by mentioning me!\n\n
+^ **Moderation commands are as follows:**\n
+^ `e]#update`: updates INI\n
+^ `e]#setgame`: Set bot's game!\n
+^ `e]#sleep`: shutdown
+
++ com mrgrgr
+- Mrgrgr!
+
++ com idle boredom
+- Ah, there isnt much to do today, is there?
+- Did you know that Eternia has the BEST parfaits?
+- I love Agnes a whole lot!
+
++ com dicefail
+- ERR: Whoops, thats not dice. Try something like `1d4+5` next time!
+- ERR: Maybe try using dice notation? like `1d20+3`? {weight=20}
+- ERR: Thats, uh, A pig die? I can't calculate pig dice. (It landed on it's snout though.)
+- ERR: Are you using dice notation?
+
++ com dicefailtwo
+- Thats... an odd amount of sides, dont you think? (Please use standard dice.)
+
++ com goodmusic
+- http://video.genyoutube.net/VkhEnvIy0yU
+- http://video.genyoutube.net/1o84y-5-cO0
+- http://video.genyoutube.net/hMabp5vnx_o
+- http://video.genyoutube.net/myEsj-qf73A
+- http://video.genyoutube.net/MgoekvkpS14
+- http://video.genyoutube.net/Zt1KtUJjUrQ
+- http://video.genyoutube.net/bgYqv3UEnGc
+- http://video.genyoutube.net/cxZVW5d_1JQ
+- http://video.genyoutube.net/tM37A9L7tIs
+- http://video.genyoutube.net/2T8BjMkm3sU
+- http://video.genyoutube.net/L_B0KE1lmAM
+- http://video.genyoutube.net/0vp_kq6f6Ls
+- http://video.genyoutube.net/B9m_NmpTr1I
+- http://video.genyoutube.net/1nADv81BQD4
+- http://video.genyoutube.net/k93B2UMnSwg
+- http://video.genyoutube.net/UPQ3jmBUX8s
+- https://soundcloud.com/moeshop/new-non-non-biyori-disco-groove
+- https://soundcloud.com/oddeeoofficial/jamie-paige-grand-restore-oddeeo-remix
+- https://soundcloud.com/sodaisland/grynpyret-boba-beach
+- https://soundcloud.com/splendiferachie/eine-kleine
+- https://soundcloud.com/joeypecoraro/warm
+- https://soundcloud.com/balloti/alphatest
+- https://soundcloud.com/lullatone/a-blanket-of-snow-spotted-from-under-the-blankets-in-bed
+- https://soundcloud.com/goodmorningalister/sets/goodmorningliffey
+- https://soundcloud.com/lullatone/hot-sand
+- https://soundcloud.com/gykojtf38wqc/chi-ka-reach-azel-opening
+- https://soundcloud.com/gykojtf38wqc/chi-ka-waratte-sonia-opening
